@@ -3,7 +3,9 @@ package uz.pdp.propertysource;
 import lombok.Getter;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component
 @Getter
 @ToString
 public class DatabaseConfig {
